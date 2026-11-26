@@ -93,7 +93,6 @@ export default function Home() {
         id="experience"
         className="relative flex min-h-[680px] items-center overflow-hidden md:min-h-[820px]"
       >
-        {/* Background image */}
         <div
           className="absolute inset-0 animate-slow-zoom bg-cover bg-center"
           style={{
@@ -102,18 +101,15 @@ export default function Home() {
           }}
         />
 
-        {/* Cinematic overlays */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#101214] via-[#101214]/85 to-[#101214]/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#101214] via-transparent to-[#101214]/45" />
         <div className="absolute inset-0 bg-[#101214]/10" />
 
-        {/* Gold atmospheric detail */}
         <div className="absolute -right-40 top-1/4 h-[500px] w-[500px] rounded-full bg-[#C9A96E]/[0.06] blur-[140px]" />
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-28 md:px-16 md:py-36">
           <div className="max-w-4xl">
             <div className="animate-fade-up mb-10 flex items-center gap-4">
-              <span className="h-px w-12 bg-[#C9A96E]" />
               <span className="text-[10px] tracking-[0.4em] text-[#C9A96E]">
                 SM LAB PRESENTS
               </span>
@@ -155,7 +151,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Hero metadata */}
         <div className="absolute bottom-12 right-8 hidden text-right md:block">
           <p className="text-[9px] tracking-[0.35em] text-white/40">
             LEARN. APPLY. IMPROVE.
@@ -176,8 +171,7 @@ export default function Home() {
       {/* INTRODUCTION */}
       <section className="relative mx-auto grid max-w-7xl gap-14 px-6 py-24 md:grid-cols-2 md:px-16 md:py-36">
         <div className="animate-fade-up">
-          <p className="mb-8 flex items-center gap-3 text-[10px] tracking-[0.3em] text-[#C9A96E]">
-            <span className="h-px w-8 bg-[#C9A96E]" />
+          <p className="mb-8 text-[10px] tracking-[0.3em] text-[#C9A96E]">
             THE BIGGER PICTURE
           </p>
 
@@ -202,8 +196,7 @@ export default function Home() {
             meaningful improvements.
           </p>
 
-          <div className="mt-3 flex items-center gap-4">
-            <span className="h-px w-10 bg-[#C9A96E]" />
+          <div className="mt-3">
             <span className="text-[9px] tracking-[0.25em] text-[#C9A96E]">
               UNDERSTAND THE PROCESS
             </span>
@@ -219,8 +212,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl">
           <div className="mb-16 flex flex-col justify-between gap-8 md:flex-row md:items-end">
             <div>
-              <p className="mb-7 flex items-center gap-3 text-[10px] tracking-[0.3em] text-[#C9A96E]">
-                <span className="h-px w-8 bg-[#C9A96E]" />
+              <p className="mb-7 text-[10px] tracking-[0.3em] text-[#C9A96E]">
                 YOUR LEARNING JOURNEY
               </p>
 
@@ -239,7 +231,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Chapter cards */}
+          {/* CHAPTER CARDS */}
           <div className="grid gap-4 md:grid-cols-2">
             {chapters.map((chapter, index) => (
               <button
@@ -252,7 +244,6 @@ export default function Home() {
                     : "border-white/10 bg-[#101214]/30 hover:border-[#C9A96E]/50 hover:bg-[#202326]"
                 }`}
               >
-                {/* Subtle gold accent */}
                 <div
                   className={`absolute left-0 top-0 h-full w-[2px] bg-[#C9A96E] transition-transform duration-500 ${
                     activeChapter === index
@@ -302,7 +293,7 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Exploration progress */}
+          {/* EXPLORATION PROGRESS */}
           <div className="mt-14 border-t border-white/10 pt-7">
             <div className="flex items-center justify-between gap-4">
               <span className="text-[9px] tracking-[0.25em] text-white/40">

@@ -263,7 +263,6 @@ export default function LearningPage() {
         {stage === 0 && (
           <section key="intro" className="animate-fade-up">
             <p className="mb-8 flex items-center gap-3 text-[10px] tracking-[0.35em] text-[#C9A96E]">
-              <span className="h-px w-9 bg-[#C9A96E]" />
               YOUR LEARNING JOURNEY · 01
             </p>
 
@@ -354,7 +353,6 @@ export default function LearningPage() {
         {stage === 1 && (
           <section key="lesson" className="animate-fade-up">
             <p className="flex items-center gap-3 text-[10px] tracking-[0.3em] text-[#C9A96E]">
-              <span className="h-px w-8 bg-[#C9A96E]" />
               CHAPTER 01 · THE FUNDAMENTALS
             </p>
 
@@ -439,7 +437,6 @@ export default function LearningPage() {
         {stage === 2 && (
           <section key="scenario" className="animate-fade-up">
             <p className="flex items-center gap-3 text-[10px] tracking-[0.3em] text-[#C9A96E]">
-              <span className="h-px w-8 bg-[#C9A96E]" />
               CHAPTER 02 · INTERACTIVE SCENARIO
             </p>
 
@@ -547,7 +544,6 @@ export default function LearningPage() {
         {stage === 3 && (
           <section key="application" className="animate-fade-up">
             <p className="flex items-center gap-3 text-[10px] tracking-[0.3em] text-[#C9A96E]">
-              <span className="h-px w-8 bg-[#C9A96E]" />
               CHAPTER 03 · KNOWLEDGE APPLICATION
             </p>
 
